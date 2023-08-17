@@ -1,7 +1,7 @@
-import About from "@/sections/About";
-import Contact from "@/sections/Contact";
-import Design from "@/sections/Design";
-import Skill from "@/sections/Skill";
+import About from "@/app/sections/About";
+import Contact from "@/app/sections/Contact";
+import Design from "@/app/sections/Design";
+import Skill from "@/app/sections/Skill";
 
 export default function Home() {
   return (
