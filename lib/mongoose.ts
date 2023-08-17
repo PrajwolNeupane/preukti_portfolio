@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 let isConnected = false;
 
 export const connectToDB = async () => {
-  mongoose.set("strictQuery", true);
   if (!process.env.MONGODB_URL) {
     console.log("Mongo DB URL not found");
     return;
