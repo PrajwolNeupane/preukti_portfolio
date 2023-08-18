@@ -6,9 +6,7 @@ const Page = () => {
     <div className="min-w-screen min-h-screen flex items-center justify-center bg-light-500 overflow-x-hidden">
       <div className="flex flex-col  lg:w-[50%] md:w-[60%] sm:w-[70%] w-[90%] items-center">
         <Image
-          src={
-            "https://images.unsplash.com/photo-1610186356315-fa16d1a7045d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdvcmlsbGF8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
-          }
+          src={"/assets/me.jpg"}
           alt="Profile Photo"
           width={200}
           height={200}
@@ -42,11 +40,19 @@ const Page = () => {
             <i className="uil uil-envelope lg:text-lg md:text-md text-sm"></i>
           </Link>
         </div>
-        <div className="flex sm:flex-row md:gap-1 gap-0 items-center">
-          <i className="uil uil-phone-alt md:text-xs text-2xs"></i>
-          <p className="font-r md:text-2xs text-3xs text-center text-dark-500">+977- 9741814412</p>
-          <i className="uil uil-map-marker md:ml-5 ml-2 md:text-xs text-2xs"></i>
-          <p className="font-r md:text-2xs text-3xs text-center text-dark-500">Thali, Kageshwori Manohara -05</p>
+        <div className="flex sm:flex-row flex-col sm:gap-10 gap-1 items-center">
+          <div className="flex gap-2 items-center">
+            <i className="uil uil-phone-alt md:text-xs text-2xs"></i>
+            <p className="font-r md:text-2xs text-3xs text-center text-dark-500">
+              +977- 9741814412
+            </p>
+          </div>
+          <div className="flex gap-2 items-center">
+            <i className="uil uil-map-marker md:text-xs text-2xs"></i>
+            <p className="font-r md:text-2xs text-3xs text-center text-dark-500">
+              Thali, Kageshwori Manohara -05
+            </p>
+          </div>
         </div>
       </div>
     </div>
