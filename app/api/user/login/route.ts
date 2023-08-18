@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { connectToDB } from "@/lib/mongoose";
-import { createUser } from "@/lib/actions/user.actions";
+import { logIn } from "@/lib/actions/user.actions";
 
 connectToDB();
 
@@ -10,8 +10,8 @@ export async function POST(request: NextRequest) {
     if (key === process.env.API_KEY!) {
       const reqBody = await request.json();
       const { email, password } = reqBody;
-      const resposne = await createUser({ email, password });
-      return resposne;
+      const response = await logIn({ email, password });
+      return response;
     } else {
       return NextResponse.json(
         { error: "Wrong API key" },
@@ -20,10 +20,10 @@ export async function POST(request: NextRequest) {
         }
       );
     }
-  } catch (error: any) {
-    console.log(error);
+  } catch (e: any) {
+    console.log(e);
     return NextResponse.json(
-      { error: error.message },
+      { error: e.message },
       {
         status: 500,
       }
