@@ -42,13 +42,13 @@ const Page = () => {
         </div>
         <div className="flex sm:flex-row flex-col sm:gap-10 gap-1 items-center">
           <div className="flex gap-2 items-center">
-            <i className="uil uil-phone-alt md:text-xs text-2xs"></i>
+            <i className="uil uil-phone-alt md:text-xs text-2xs text-primary-700"></i>
             <p className="font-r md:text-2xs text-3xs text-center text-dark-500">
               +977- 9741814412
             </p>
           </div>
           <div className="flex gap-2 items-center">
-            <i className="uil uil-map-marker md:text-xs text-2xs"></i>
+            <i className="uil uil-map-marker md:text-xs text-2xs text-primary-700"></i>
             <p className="font-r md:text-2xs text-3xs text-center text-dark-500">
               Thali, Kageshwori Manohara -05
             </p>
