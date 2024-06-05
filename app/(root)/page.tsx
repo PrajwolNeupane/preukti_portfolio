@@ -28,16 +28,16 @@ const Page = () => {
         <hr className="w-[60%] h-[1px] my-2 bg-primary-700" />
         <div className="flex items-center gap-5">
           <Link href={"https://www.instagram.com/__preukti__/"} target="blank">
-            <i className="uil uil-instagram lg:text-lg md:text-md text-sm"></i>
+            <i className="uil uil-instagram lg:text-lg md:text-md text-primary-700 text-sm"></i>
           </Link>
           <Link
             href="https://www.linkedin.com/in/preukti-parajuli-633964259/"
             target="blank"
           >
-            <i className="uil uil-linkedin-alt lg:text-lg md:text-md text-sm"></i>
+            <i className="uil uil-linkedin-alt lg:text-lg md:text-md text-sm  text-primary-700"></i>
           </Link>
           <Link href={"mailto:parajulipreukti@gmail.com"} target="blank">
-            <i className="uil uil-envelope lg:text-lg md:text-md text-sm"></i>
+            <i className="uil uil-envelope lg:text-lg md:text-md text-sm  text-primary-700"></i>
           </Link>
         </div>
         <div className="flex sm:flex-row flex-col sm:gap-10 gap-1 items-center">

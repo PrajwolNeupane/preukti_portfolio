@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     fontFamily: {
       sans: ["Rubik", "sans-serif"],
-      libra:['Libre Franklin', 'sans-serif']
+      libra: ["Libre Franklin", "sans-serif"],
     },
     fontWeight: {
       eb: "800",
@@ -19,26 +19,26 @@ const config: Config = {
       r: "400",
       l: "300",
     },
-    fontSize:{
-      "3xl":"42px",
-      "2xl":"38px",
-      "xl":"34px",
-      "lg":"30px",
-      "md":"25px",
-      "rg":"22px",
-      "sm":"20px",
-      "xs":"18px",
-      "2xs":"16px",
-      "3xs":"14px"
+    fontSize: {
+      "3xl": "42px",
+      "2xl": "38px",
+      xl: "34px",
+      lg: "30px",
+      md: "25px",
+      rg: "22px",
+      sm: "20px",
+      xs: "18px",
+      "2xs": "16px",
+      "3xs": "14px",
     },
-    colors:{
-      "primary-700":"#363055",
-      "primary-600":"#1A0061",
-      "primary-500":"#230090",
-      "dark-600":"#1D1B1B",
-      "dark-500":"#282828",
-      "light-500":"#F3F3F3",
-      "light-400":"#FFFFFF"
+    colors: {
+      "primary-700": "#4C0028",
+      "primary-600": "#4C0028",
+      "primary-500": "#4C0028",
+      "dark-600": "#4C0028",
+      "dark-500": "#4C0028",
+      "light-500": "#E3E0D3",
+      "light-400": "#DAE4EC",
     },
     extend: {
       backgroundImage: {
